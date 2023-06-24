@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { TaskRepository } from '../task.repository';
+import { TaskRepository } from './task.repository';
 import { Task } from '@prisma/client';
 
 @Injectable()

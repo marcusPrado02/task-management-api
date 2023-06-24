@@ -1,5 +1,5 @@
 import { Controller, Get, Param } from '@nestjs/common';
-import { TaskService } from '../services/task.service';
+import { TaskService } from './task.service';
 import { Task } from '@prisma/client';
 
 @Controller('tasks')
